@@ -49,4 +49,25 @@ export const media = [
     tmdbId: 37854,
     mediaType: "tv",
   },
+
+  {
+    id: "takopis-original-sin",
+    name: "Takopi's Original Sin",
+    tmdbId: 284445,
+    mediaType: "tv",
+  },
+
+  {
+    id: "batman-the-animated-series",
+    name: "Batman: The Animated Series",
+    tmdbId: 2098,
+    mediaType: "tv",
+  },
+
+  {
+    id: "summer-camp-island",
+    name: "Summer Camp Island",
+    tmdbId: 81665,
+    mediaType: "tv",
+  },
 ];

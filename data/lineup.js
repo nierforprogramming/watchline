@@ -67,4 +67,24 @@ export const lineup = [
     mediaId: "we-baby-bears",
     category: "ZzzToons",
   },
+  {
+    id: "takopis-original-sin-watch-streak",
+    days: ["Wednesday"],
+    mediaId: "takopis-original-sin",
+    category: "Watch Streak",
+  },
+
+  {
+    id: "batman-the-animated-series-evening-flix",
+    days: ["Wednesday"],
+    mediaId: "batman-the-animated-series",
+    category: "Evening Flix",
+  },
+
+  {
+    id: "summer-camp-island-zzztoons",
+    days: ["Wednesday"],
+    mediaId: "summer-camp-island",
+    category: "ZzzToons",
+  },
 ];
