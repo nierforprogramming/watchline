@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
+:root {
+  --swiper-theme-color: white;
+}
+
 @theme {
   --color-background: #161616;
   --color-section-background: #221f1f;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: white !important;
 }

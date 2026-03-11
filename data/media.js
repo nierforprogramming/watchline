@@ -77,4 +77,11 @@ export const media = [
     tmdbId: 991494,
     mediaType: "movie",
   },
+
+  {
+    id: "iron-lung",
+    name: "Iron Lung",
+    tmdbId: 1116201,
+    mediaType: "movie",
+  },
 ];

@@ -93,4 +93,11 @@ export const lineup = [
     mediaId: "the-spongebob-movie",
     category: "ScreenTime Saturday",
   },
+
+  {
+    id: "iron-lung-screentime-saturday",
+    days: ["Saturday"],
+    mediaId: "iron-lung",
+    category: "ScreenTime Saturday",
+  },
 ];
