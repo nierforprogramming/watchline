@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] rounded-xl bg-black/30 backdrop-blur-md py-2 text-white transition-transform duration-1000  ${isBeingScrolled ? "translate-y-0" : "-translate-y-50"} `}
+      className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] rounded-xl bg-black/30 backdrop-blur-md py-2 text-white transition-transform duration-400  ${isBeingScrolled ? "translate-y-0" : "-translate-y-50"} `}
     >
       <div className="h-16 items-center flex justify-between">
         <Logo />

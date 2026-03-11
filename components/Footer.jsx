@@ -40,7 +40,7 @@ const Footer = () => {
               <div>Vite</div>
               <div>VS Code</div>
               <div>GitHub</div>
-              <div>TMDb API0</div>
+              <div>TMDb API</div>
             </div>
 
             <div className="space-y-3 flex-1">
@@ -54,7 +54,7 @@ const Footer = () => {
         <div className="text-center mb-10 space-y-5">
           <div className="flex justify-center space-x-1 items-center font-semibold text-gray-300">
             <span> &copy;</span>
-            <span>2021</span>
+            <span>{new Date().getFullYear()} </span>
             <Logo className="text-base font-normal pl-0 text-gray-300" />
           </div>
           <div className="flex justify-center space-x-6 text-2xl text-white cursor-pointer">
