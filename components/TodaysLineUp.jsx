@@ -24,7 +24,7 @@ const TodaysLineUp = () => {
 
   return (
     <section className="w-full" id="lineup">
-      <SectionHeading text="Whats On Today?" />
+      <SectionHeading text="Up Next" className="sm:mb-15" />
 
       <Swiper
         spaceBetween={20}
@@ -64,7 +64,7 @@ const TodaysLineUp = () => {
                   </h3>
 
                   <p
-                    className={`text-md ${categoryColor?.color} || "bg-gray-600" px-1 py-2 rounded-sm w-fit`}
+                    className={`text-md ${categoryColor?.bgColor}/20 || "bg-gray-600" ${categoryColor?.textColor || "text-white"}  px-1 py-2 rounded-sm w-fit`}
                   >
                     {item.category}
                   </p>

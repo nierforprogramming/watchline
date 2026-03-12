@@ -19,7 +19,7 @@ const ScreenTimeSaturday = () => {
   return (
     <div className="bg-section-background pb-20" id="nextonmovies">
       <div className="px-4 pt-15 sm:pt-25 sm:px-8 md:px-12 lg:px-20">
-        <SectionHeading text={"Movies On Saturday"} />
+        <SectionHeading text={"Movies On Saturday"} className="sm:mb-15" />
 
         <Swiper
           modules={[Autoplay, Pagination]}

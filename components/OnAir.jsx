@@ -30,17 +30,17 @@ const OnAir = () => {
   }
 
   const category = lineUpCategories.find(
-    (item) => item.name === timeShow?.category
+    (item) => item.name === timeShow?.category,
   );
 
   const result = timeShow.tmdb;
 
   return (
-    <section className="text-gray-300 space-y-6">
+    <section className="text-gray-300 space-y-6" id="onair">
       {/* Heading */}
       <div>
-        <SectionHeading className="sm:mb-2" text={time.title} />
-        <p className="text-gray-400">
+        <SectionHeading text={"Hey! " + time.title + ","} className="sm:mb-4" />
+        <p className="text-gray-400 mb-10">
           {category?.desc ?? "Here is the next pick for you"}
         </p>
       </div>
@@ -71,7 +71,7 @@ const OnAir = () => {
           <div className="max-w-xl text-center sm:text-left space-y-4">
             {/* Category Badge */}
             <p
-              className={`uppercase tracking-widest text-sm inline-block rounded-sm px-3 py-1 text-white ${category?.color}`}
+              className={`uppercase tracking-widest text-sm inline-block rounded-sm px-3 py-1 ${category?.bgColor}/70  || "bg-gray-600" ${category?.textColor || "text-white"} text-white`}
             >
               {timeShow.category}
             </p>
@@ -94,7 +94,7 @@ const OnAir = () => {
             </div>
 
             {/* Overview */}
-            <p className="text-white/80 text-sm sm:text-base line-clamp-3">
+            <p className="text-white text-sm sm:text-base line-clamp-3">
               {result.overview}
             </p>
           </div>
