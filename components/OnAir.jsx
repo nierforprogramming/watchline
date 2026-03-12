@@ -3,7 +3,7 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import { useLineUpStore } from "@/store/useLineUpStore";
-import { lineUpCategories } from "@/assets";
+import { lineUpCategories, timeThemes } from "@/assets";
 import Image from "next/image";
 
 const OnAir = () => {
@@ -32,6 +32,8 @@ const OnAir = () => {
   const category = lineUpCategories.find(
     (item) => item.name === timeShow?.category,
   );
+
+  const theme = timeThemes[time.time];
 
   const result = timeShow.tmdb;
 
@@ -65,7 +67,7 @@ const OnAir = () => {
           justify-center sm:justify-start
           p-6 sm:p-12
           bg-gradient-to-t sm:bg-gradient-to-tr
-          ${category?.overlay} to-transparent`}
+          ${theme.overlay} to-transparent`}
         >
           {/* Text Content */}
           <div className="max-w-xl text-center sm:text-left space-y-4">
