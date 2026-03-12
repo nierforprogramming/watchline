@@ -35,35 +35,45 @@ export const TIME_CATEGORY_MAP = {
 export const lineUpCategories = [
   {
     name: "Watch Streak",
-    bgColor: "bg-emerald-500/20",
+    solidBgColor: "bg-emerald-500",
+    softBgColor: "bg-emerald-500/20",
+    badgeBgColor: "bg-emerald-500/70",
     textColor: "text-emerald-400",
     overlay: "from-emerald-500/40 via-emerald-500/20",
   },
 
   {
     name: "BuzzWatch",
-    bgColor: "bg-orange-500/20",
+    solidBgColor: "bg-orange-500",
+    softBgColor: "bg-orange-500/20",
+    badgeBgColor: "bg-orange-500/70",
     textColor: "text-orange-400",
     overlay: "from-orange-500/40 via-orange-500/20",
   },
 
   {
     name: "ScreenTime Saturday",
-    bgColor: "bg-pink-500/20",
+    solidBgColor: "bg-pink-500",
+    softBgColor: "bg-pink-500/20",
+    badgeBgColor: "bg-pink-500/70",
     textColor: "text-pink-400",
     overlay: "from-pink-500/40 via-pink-500/20",
   },
 
   {
     name: "Weekend Watchout",
-    bgColor: "bg-teal-500/20",
+    solidBgColor: "bg-teal-500",
+    softBgColor: "bg-teal-500/20",
+    badgeBgColor: "bg-teal-500/70",
     textColor: "text-teal-400",
     overlay: "from-teal-500/40 via-teal-500/20",
   },
 
   {
     name: "WakeUp Watch",
-    bgColor: "bg-sky-500",
+    solidBgColor: "bg-sky-500",
+    softBgColor: "bg-sky-500/20",
+    badgeBgColor: "bg-sky-500/70",
     textColor: "text-sky-400",
     desc: "Morning content to fully wakeup your mind",
     overlay: "from-orange-500/60 via-orange-500/40",
@@ -71,21 +81,27 @@ export const lineUpCategories = [
 
   {
     name: "Mind Snack",
-    bgColor: "bg-fuchsia-500/20",
+    solidBgColor: "bg-fuchsia-500",
+    softBgColor: "bg-fuchsia-500/20",
+    badgeBgColor: "bg-fuchsia-500/70",
     textColor: "text-fuchsia-400",
     overlay: "from-fuchsia-500/40 via-fuchsia-500/20",
   },
 
   {
     name: "Evening Flix",
-    bgColor: "bg-indigo-500/20",
+    solidBgColor: "bg-indigo-500",
+    softBgColor: "bg-indigo-500/20",
+    badgeBgColor: "bg-indigo-500/70",
     textColor: "text-indigo-400",
     overlay: "from-indigo-500/40 via-indigo-500/20",
   },
 
   {
     name: "ZzzToons",
-    bgColor: "bg-purple-700/20",
+    solidBgColor: "bg-purple-700",
+    softBgColor: "bg-purple-700/20",
+    badgeBgColor: "bg-purple-700/70",
     textColor: "text-purple-400",
     desc: "A short comfort watch to close the day",
     overlay: "from-purple-700/40 via-purple-700/20",
@@ -93,21 +109,27 @@ export const lineUpCategories = [
 
   {
     name: "Prime Show",
-    bgColor: "bg-yellow-500/20",
+    solidBgColor: "bg-yellow-500",
+    softBgColor: "bg-yellow-500/20",
+    badgeBgColor: "bg-yellow-500/70",
     textColor: "text-yellow-400",
     overlay: "from-yellow-500/40 via-yellow-500/20",
   },
 
   {
     name: "Episode-A-Day",
-    bgColor: "bg-cyan-500/20",
+    solidBgColor: "bg-cyan-500",
+    softBgColor: "bg-cyan-500/20",
+    badgeBgColor: "bg-cyan-500/70",
     textColor: "text-cyan-400",
     overlay: "from-cyan-500/40 via-cyan-500/20",
   },
 
   {
     name: "Snacks & Toons",
-    bgColor: "bg-lime-500/20",
+    solidBgColor: "bg-lime-500",
+    softBgColor: "bg-lime-500/20",
+    badgeBgColor: "bg-lime-500/70",
     textColor: "text-lime-400",
     desc: "Fuel for the tummy and fuel for the mind",
     overlay: "from-lime-500/40 via-lime-500/20",

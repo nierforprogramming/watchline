@@ -71,7 +71,7 @@ const OnAir = () => {
           <div className="max-w-xl text-center sm:text-left space-y-4">
             {/* Category Badge */}
             <p
-              className={`uppercase tracking-widest text-sm inline-block rounded-sm px-3 py-1 ${category?.bgColor}/70  || "bg-gray-600" ${category?.textColor || "text-white"} text-white`}
+              className={`uppercase tracking-widest text-sm inline-block rounded-sm px-2 py-1 ${category?.badgeBgColor || "bg-gray-600"}   ${category?.textColor || "text-white"} text-white`}
             >
               {timeShow.category}
             </p>

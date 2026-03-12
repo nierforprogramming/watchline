@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import SectionHeading from "./SectionHeading";
 import Image from "next/image";
 import { useLineUpStore } from "@/store/useLineUpStore";
+import { lineUpCategories } from "@/assets";
 
 const ScreenTimeSaturday = () => {
   const saturdayMovies = useLineUpStore((state) => state.saturdayMovies);
@@ -35,7 +36,9 @@ const ScreenTimeSaturday = () => {
         >
           {saturdayMovies.map((item) => {
             const result = item.tmdb;
-
+            const categoryColor = lineUpCategories.find(
+              (c) => c.name === item.category,
+            );
             return (
               <SwiperSlide key={item.media.id}>
                 <div className="text-white grid sm:grid-cols-2 items-center gap-10">
@@ -59,7 +62,9 @@ const ScreenTimeSaturday = () => {
                       </div>
                       <div>{result.releaseDate?.slice(0, 4) ?? "TBA"}</div>
                       <div>1h 11m</div>
-                      <div className="bg-pink-500/20 text-pink-400 px-1 py-2 rounded-sm w-fit">
+                      <div
+                        className={`${categoryColor?.softBgColor || "bg-gray-600/20"}  ${categoryColor?.textColor || "text-white"}  px-1 py-2 rounded-sm w-fit`}
+                      >
                         {item.category}
                       </div>
                     </div>
