@@ -39,6 +39,7 @@ export const timeThemes = {
     overlay: "from-orange-500/50 via-sky-400/30",
     text: "text-sky-100",
     accent: "text-sky-400",
+    quote: "Morning content to fully wakeup your mind",
   },
 
   afternoon: {
@@ -46,6 +47,7 @@ export const timeThemes = {
     overlay: "from-amber-500/50 via-orange-400/30",
     text: "text-orange-100",
     accent: "text-orange-400",
+    quote: "A show to fill the space between the busy hours",
   },
 
   evening: {
@@ -53,6 +55,7 @@ export const timeThemes = {
     overlay: "from-indigo-600/60 via-purple-500/30",
     text: "text-indigo-100",
     accent: "text-indigo-400",
+    quote: "The gentle transition into the night",
   },
 
   night: {
@@ -60,6 +63,7 @@ export const timeThemes = {
     overlay: "from-purple-900/70 via-indigo-900/40",
     text: "text-purple-100",
     accent: "text-purple-400",
+    quote: "A short comfort watch to close the day",
   },
 };
 
@@ -119,6 +123,7 @@ export const lineUpCategories = [
     softBgColor: "bg-indigo-500/20",
     badgeBgColor: "bg-indigo-500/70",
     textColor: "text-indigo-400",
+    desc: "The gentle transition into the night",
   },
 
   {
@@ -144,6 +149,7 @@ export const lineUpCategories = [
     softBgColor: "bg-cyan-500/20",
     badgeBgColor: "bg-cyan-500/70",
     textColor: "text-cyan-400",
+    desc: "A show to fill the space between the busy hours",
   },
 
   {

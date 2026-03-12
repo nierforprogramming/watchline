@@ -43,7 +43,7 @@ const OnAir = () => {
       <div>
         <SectionHeading text={"Hey! " + time.title + ","} className="sm:mb-4" />
         <p className="text-gray-400 mb-10">
-          {category?.desc ?? "Here is the next pick for you"}
+          {theme?.quote ?? "Here is the next pick for you"}
         </p>
       </div>
 
