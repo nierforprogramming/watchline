@@ -10,8 +10,8 @@ export const DAYS = [
 
 export const DAY_GROUPS = {
   EVERY_DAY: [...DAYS],
-  WEEKDAYS: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  WEEKENDS: ["Saturday", "Sunday"],
+  WEEKDAYS: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  WEEKENDS: ["Saturday"],
 };
 
 export const lineup = [
@@ -23,21 +23,28 @@ export const lineup = [
   },
 
   {
-    id: "fate-strange-fake-buzzwatch",
+    id: "beastars-buzzwatch",
     days: DAY_GROUPS.EVERY_DAY,
-    mediaId: "fate-strange-fake",
+    mediaId: "beastars",
     category: "BuzzWatch",
   },
 
+  // {
+  //   id: "fate-strange-fake-buzzwatch",
+  //   days: DAY_GROUPS.EVERY_DAY,
+  //   mediaId: "fate-strange-fake",
+  //   category: "BuzzWatch",
+  // },
+
   {
     id: "kiff-snacks&toons",
-    days: DAY_GROUPS.EVERY_DAY,
+    days: DAY_GROUPS.WEEKDAYS,
     mediaId: "kiff",
     category: "Snacks & Toons",
   },
   {
     id: "gumball-mindsnack",
-    days: DAY_GROUPS.EVERY_DAY,
+    days: DAY_GROUPS.WEEKDAYS,
     mediaId: "gumball",
     category: "Mind Snack",
   },
@@ -49,29 +56,44 @@ export const lineup = [
     category: "Watch Streak",
   },
   {
+    id: "orb-on-the-movements-of-the-earth-watch-streak",
+    days: ["Friday"],
+    mediaId: "orb-on-the-movements-of-the-earth",
+    category: "Watch Streak",
+  },
+
+  {
+    id: "takopis-original-sin-watch-streak",
+    days: ["Wednesday"],
+    mediaId: "takopis-original-sin",
+    category: "Watch Streak",
+  },
+
+  {
+    id: "that-time-i-got-reincarnated-as-a-slime-watch-streak",
+    days: ["Thursday"],
+    mediaId: "that-time-i-got-reincarnated-as-a-slime",
+    category: "Watch Streak",
+  },
+  {
+    id: "gintama-weekend-watchout",
+    days: DAY_GROUPS.WEEKENDS,
+    mediaId: "gintama",
+    category: "Weekend Watchout",
+  },
+
+  {
     id: "fallout-episode-a-day",
-    days: DAY_GROUPS.EVERY_DAY,
+    days: DAY_GROUPS.WEEKDAYS,
     mediaId: "fallout",
     category: "Episode-A-Day",
   },
 
   {
     id: "pokemon-prime-show",
-    days: DAY_GROUPS.EVERY_DAY,
+    days: DAY_GROUPS.WEEKDAYS,
     mediaId: "pokemon",
     category: "Prime Show",
-  },
-  {
-    id: "baby-bears-zzztoons",
-    days: ["Tuesday"],
-    mediaId: "we-baby-bears",
-    category: "ZzzToons",
-  },
-  {
-    id: "takopis-original-sin-watch-streak",
-    days: ["Wednesday"],
-    mediaId: "takopis-original-sin",
-    category: "Watch Streak",
   },
 
   {
@@ -82,49 +104,62 @@ export const lineup = [
   },
 
   {
+    id: "avatar-the-last-airbender-evening-flix",
+    days: ["Thursday"],
+    mediaId: "avatar-the-last-airbender",
+    category: "Evening Flix",
+  },
+
+  {
+    id: "rick-and-morty-evening-flix",
+    days: ["Friday"],
+    mediaId: "rick-and-morty",
+    category: "Evening Flix",
+  },
+  {
+    id: "baby-bears-zzztoons",
+    days: ["Tuesday"],
+    mediaId: "we-baby-bears",
+    category: "ZzzToons",
+  },
+
+  {
     id: "summer-camp-island-zzztoons",
     days: ["Wednesday"],
     mediaId: "summer-camp-island",
     category: "ZzzToons",
   },
+
+  {
+    id: "close-enough-zzztoons",
+    days: ["Thursday"],
+    mediaId: "close-enough",
+    category: "ZzzToons",
+  },
+  {
+    id: "craig-of-the-creek-zzztoons",
+    days: ["Saturday"],
+    mediaId: "craig-of-the-creek",
+    category: "ZzzToons",
+  },
   {
     id: "the-spongebob-movie-screentime-saturday",
-    days: ["Saturday"],
+    days: DAY_GROUPS.WEEKENDS,
     mediaId: "the-spongebob-movie",
     category: "ScreenTime Saturday",
   },
 
   {
     id: "iron-lung-screentime-saturday",
-    days: ["Saturday"],
+    days: DAY_GROUPS.WEEKENDS,
     mediaId: "iron-lung",
     category: "ScreenTime Saturday",
   },
 
   {
     id: "onward-screentime-saturday",
-    days: ["Saturday"],
+    days: DAY_GROUPS.WEEKENDS,
     mediaId: "onward",
     category: "ScreenTime Saturday",
-  },
-
-  {
-    id: "that-time-i-got-reincarnated-as-a-slime-watch-streak",
-    days: ["Thursday"],
-    mediaId: "that-time-i-got-reincarnated-as-a-slime",
-    category: "Watch Streak",
-  },
-
-  {
-    id: "avatar-the-last-airbender-evening-flix",
-    days: ["Thursday"],
-    mediaId: "avatar-the-last-airbender",
-    category: "Evening Flix",
-  },
-  {
-    id: "close-enough-zzztoons",
-    days: ["Thursday"],
-    mediaId: "close-enough",
-    category: "Evening Flix",
   },
 ];

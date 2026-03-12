@@ -50,7 +50,7 @@ const OnAir = () => {
       {/* Hero Card */}
       <div className="relative w-full overflow-hidden rounded-2xl">
         {/* Background */}
-        <div className="relative h-[420px] sm:h-[600px] w-full">
+        <div className="relative h-105 sm:h-150 w-full">
           <Image
             src={`https://image.tmdb.org/t/p/original${result.backdropPath}`}
             alt={result.title || "background"}

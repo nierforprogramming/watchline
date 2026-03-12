@@ -14,7 +14,7 @@ const TodaysLineUp = () => {
   if (!todayItems?.length) {
     return (
       <section className="w-full">
-        <SectionHeading text="Whats On Today?" />
+        <SectionHeading text="Today's Lineup" />
         <div className="flex min-h-[220px] items-center justify-center rounded-2xl bg-white/5 text-white/60">
           Nothing scheduled for today.
         </div>
@@ -24,7 +24,7 @@ const TodaysLineUp = () => {
 
   return (
     <section className="w-full" id="lineup">
-      <SectionHeading text="Up Next" className="sm:mb-15" />
+      <SectionHeading text="Today's Lineup" className="sm:mb-15" />
 
       <Swiper
         spaceBetween={20}
@@ -56,6 +56,11 @@ const TodaysLineUp = () => {
                            25vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  <div className="absolute right-5 ">
+                    <p className="mt-4 text-sm rounded-sm text-white/90 w-fit  bg-black/40 backdrop-blur-md px-3 py-1">
+                      {result.voteAverage.toFixed(1) ?? "N/A"}
+                    </p>
+                  </div>
                 </div>
 
                 <div className="px-2 py-3 space-y-3 text-white">

@@ -81,7 +81,7 @@ const HeroSlider = () => {
 
                       <div className="flex space-x-8 font-semibold">
                         <p className="mt-4 text-lg text-white/90">
-                          ⭐ {Math.ceil(result.voteAverage) ?? "N/A"} / 10
+                          ⭐ {result.voteAverage.toFixed(1) ?? "N/A"} / 10
                         </p>
 
                         <p className="mt-4 text-lg text-white/90">

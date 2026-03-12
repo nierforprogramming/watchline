@@ -108,4 +108,34 @@ export const media = [
     tmdbId: 84503,
     mediaType: "tv",
   },
+  {
+    id: "beastars",
+    name: "Beastars",
+    tmdbId: 90937,
+    mediaType: "tv",
+  },
+  {
+    id: "orb-on-the-movements-of-the-earth",
+    name: "Orb: On the Movements of the Earth",
+    tmdbId: 204635,
+    mediaType: "tv",
+  },
+  {
+    id: "rick-and-morty",
+    name: "Rick and Morty",
+    tmdbId: 60625,
+    mediaType: "tv",
+  },
+  {
+    id: "gintama",
+    name: "Gintama",
+    tmdbId: 57041,
+    mediaType: "tv",
+  },
+  {
+    id: "craig-of-the-creek",
+    name: "Craig of the Creek",
+    tmdbId: 79061,
+    mediaType: "tv",
+  },
 ];
