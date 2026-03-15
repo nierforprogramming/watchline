@@ -75,6 +75,13 @@ export const lineup = [
     mediaId: "that-time-i-got-reincarnated-as-a-slime",
     category: "Watch Streak",
   },
+
+  {
+    id: "sand-land-the-series-watch-streak",
+    days: ["Sunday"],
+    mediaId: "sand-land-the-series",
+    category: "Watch Streak",
+  },
   {
     id: "gintama-weekend-watchout",
     days: DAY_GROUPS.WEEKENDS,

@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { media } from "@/data/media";
 import { lineup } from "@/data/lineup";
 import { getTMDBDetailsById, formatTMDBDetails } from "@/lib/tmdb";
-import { getHours, getTodayDayName, greet } from "@/lib/utils";
+import { getHours, getTodayDayName, greet, shuffleArray } from "@/lib/utils";
 import { TIME_CATEGORY_MAP } from "@/assets";
 
 function createTMDBCacheKey(tmdbId, mediaType) {
@@ -97,9 +97,9 @@ export const useLineUpStore = create((set, get) => ({
         (item) => item.media?.mediaType === "movie",
       );
 
-      const featuredItems = [
+      const featuredItems = shuffleArray([
         ...new Map(tvItems.map((item) => [item.media.id, item])).values(),
-      ];
+      ]);
 
       const categoryForTime = TIME_CATEGORY_MAP[time.time];
 

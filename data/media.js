@@ -156,4 +156,10 @@ export const media = [
     tmdbId: 31132,
     mediaType: "tv",
   },
+  {
+    id: "sand-land-the-series",
+    name: "SAND LAND: THE SERIES",
+    tmdbId: 239478,
+    mediaType: "tv",
+  },
 ];
