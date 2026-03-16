@@ -35,6 +35,12 @@ export const lineup = [
     mediaId: "fate-strange-fake",
     category: "BuzzWatch",
   },
+  {
+    id: "to-your-eternity-buzzwatch",
+    days: ["Monday"],
+    mediaId: "to-your-eternity",
+    category: "BuzzWatch",
+  },
 
   {
     id: "kiff-snacks&toons",
@@ -130,6 +136,12 @@ export const lineup = [
     category: "Evening Flix",
   },
   {
+    id: "futurama-evening-flix",
+    days: ["Monday"],
+    mediaId: "futurama",
+    category: "Evening Flix",
+  },
+  {
     id: "baby-bears-zzztoons",
     days: ["Tuesday"],
     mediaId: "we-baby-bears",
@@ -165,6 +177,12 @@ export const lineup = [
     id: "regular-show-zzztoons",
     days: ["Sunday"],
     mediaId: "regular-show",
+    category: "ZzzToons",
+  },
+  {
+    id: "clarence-zzztoons",
+    days: ["Monday"],
+    mediaId: "clarence",
     category: "ZzzToons",
   },
 

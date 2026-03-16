@@ -162,4 +162,22 @@ export const media = [
     tmdbId: 239478,
     mediaType: "tv",
   },
+  {
+    id: "to-your-eternity",
+    name: "To Your Eternity",
+    tmdbId: 97525,
+    mediaType: "tv",
+  },
+  {
+    id: "futurama",
+    name: "Futurama",
+    tmdbId: 615,
+    mediaType: "tv",
+  },
+  {
+    id: "clarence",
+    name: "Clarence",
+    tmdbId: 50035,
+    mediaType: "tv",
+  },
 ];
