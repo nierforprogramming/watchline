@@ -180,4 +180,10 @@ export const media = [
     tmdbId: 50035,
     mediaType: "tv",
   },
+  {
+    id: "blade-runner-black-lotus",
+    name: "Blade Runner: Black Lotus",
+    tmdbId: 84553,
+    mediaType: "tv",
+  },
 ];

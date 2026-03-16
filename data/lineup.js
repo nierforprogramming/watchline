@@ -89,6 +89,12 @@ export const lineup = [
     category: "Watch Streak",
   },
   {
+    id: "blade-runner-black-lotus-watch-streak",
+    days: ["Monday"],
+    mediaId: "blade-runner-black-lotus",
+    category: "Watch Streak",
+  },
+  {
     id: "gintama-weekend-watchout",
     days: DAY_GROUPS.WEEKENDS,
     mediaId: "gintama",
