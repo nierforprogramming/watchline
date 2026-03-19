@@ -204,4 +204,10 @@ export const media = [
     tmdbId: 1434,
     mediaType: "tv",
   },
+  {
+    id: "one-punch-man",
+    name: "One-Punch Man",
+    tmdbId: 63926,
+    mediaType: "tv",
+  },
 ];

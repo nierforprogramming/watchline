@@ -49,6 +49,13 @@ export const lineup = [
   },
 
   {
+    id: "one-punch-man-buzzwatch",
+    days: ["Thursday"],
+    mediaId: "one-punch-man",
+    category: "BuzzWatch",
+  },
+
+  {
     id: "kiff-snacks&toons",
     days: DAY_GROUPS.WEEKDAYS,
     mediaId: "kiff",
@@ -100,6 +107,7 @@ export const lineup = [
     mediaId: "blade-runner-black-lotus",
     category: "Watch Streak",
   },
+
   {
     id: "gintama-weekend-watchout",
     days: DAY_GROUPS.WEEKENDS,
